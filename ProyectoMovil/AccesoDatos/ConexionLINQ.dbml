@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ProyectoProgra" Class="ConexionLINQDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-JIHQCS8V;Initial Catalog=ProyectoProgra;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="AccesoDatos.Properties.Settings" SettingsPropertyName="ProyectoPrograConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.SP_INSERTAR_CATEGORIA" Method="SP_INSERTAR_CATEGORIA">
+    <Parameter Name="NOMBRE" Parameter="nOMBRE" Type="System.String" DbType="VarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
